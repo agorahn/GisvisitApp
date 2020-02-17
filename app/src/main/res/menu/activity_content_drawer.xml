@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuration" />
+    </group>
+    <item android:title="Load Data">
+        <menu>
+
+            <item
+                android:id="@+id/carga_clients"
+                android:icon="@drawable/download_black"
+                android:title="Download Clients" />
+
+            <item
+                android:id="@+id/carga_events"
+                android:icon="@drawable/download_black"
+                android:title="Download Events" />
+
+            <item
+                android:id="@+id/carga_data_realizada"
+                android:icon="@drawable/upload_black"
+                android:title="Upload Data" />
+
+            <item
+                android:id="@+id/backup"
+                android:icon="@drawable/backup_black"
+                android:title="Data Backup" />
+
+
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Soport" />
+
+            <item
+                android:id="@+id/nav_web"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Web Page" />
+
+        </menu>
+    </item>
+    <item android:title="Session">
+        <menu>
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log Out" />
+
+        </menu>
+    </item>
+
+</menu>
+
+
+

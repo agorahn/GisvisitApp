@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <group android:id="@+id/action_lista"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/btnSincronizar"
+            android:title="sincronisar" />
+        <item
+            android:id="@+id/btnBackup"
+            android:title="BackUp" />
+
+
+    </group>
+</menu>
